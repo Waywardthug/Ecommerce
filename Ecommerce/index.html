@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecommence App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<nav>
+	<p class="openMenu">
+        	OpenSlider
+     </p>
+
+	<div class="nav_heading">E-commernce</div>
+	
+	<div class="nav_list">
+		<a class="clickMe" href="#">Add</a>
+		<a class="search" href="#">Search</a>
+		<a href="#">Reciept</a>
+		<a href="#">Home</a>
+		 <p class="burger">
+        	<span class="bar"></span>
+        	<span class="bar"></span>
+            <span class="bar"></span>
+        </p>
+	</div>
+</nav>
+<div class="Middle">
+	<div class="carosel">
+		<span class="slideBtn1"> < </span>
+		<p class="myItemName">Item title goes here</p>
+		<span class="slideBtn2"> > </span>
+	</div>
+	<div class="flex_cards">
+		<!-- <div class="card">
+			<div class="ItemImg">
+				<img src="img/images1.jpg">
+			</div>
+			<p id="itemName">Plot viator glasses</p>
+			<p id="itemPrice">$45.00</p>
+			<button class="add_Item">Add</button>
+		</div> -->
+	
+	</div>
+</div>
+          
+           	<fieldset class="payForm">
+           		<legend>Credit Card</legend>
+           		
+           			<form action="#" method="post" autocomplete="off">
+           				<p><input placeholder="Enter your card number" class="cardNumber"/></p>
+           			    <p><input placeholder="Enter your postalCode" class="postalCode"/></p>
+           			    <p><input placeholder="Enter your gmail" class="gmail"/></p>
+           			    <p><input placeholder="Enter your cvv" class="Cvv"/></p>
+           			    <p class="totalPrice"></p>
+           			<p class="btns">
+           				<button class="purchase" type="submit">Purchase</button>
+           			    <button id="closePay" type="button">cancel</button>
+           			</p>
+           			</form>	
+           	</fieldset>
+
+           	<div class="findItem">
+           		<span class="removeSearch">&times</span>
+           		<form autocomplete="off">
+           			<input class="searchItem" type="Search" placeholder="find Item" name="">
+           			<button type="button" class="searchBtn">Search</button>
+           		</form>
+           	</div>
+           
+
+<div class="SideBar ">
+	<div class="heading">
+    <span class="slideIn">&times</span>
+	Selected Items
+
+   </div>
+	<div class="myItems">
+	<!-- 	<div class="selected_item">
+			<span class="selected_name">Plot aviator glasses</span>
+			<span class="selected_price">$45</span>
+            <span class="delete_selected">&times</span>
+		</div> -->
+
+		<!-- <div class="amount_total">
+			<span>Total</span>
+			<span>$360</span>
+            <span id="pay">Pay</span>
+		</div>
+ -->	</div>
+</div>
+<footer> </footer>
+<script type="text/javascript" src="items.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
